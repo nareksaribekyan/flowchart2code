@@ -1,0 +1,6 @@
+class UnitTest
+{
+public:
+	UnitTest()
+	
+};

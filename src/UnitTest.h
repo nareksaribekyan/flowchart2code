@@ -1,6 +1,6 @@
 class UnitTest
 {
 public:
-	UnitTest()
-	
+	UnitTest();
+	virtual bool run() = 0;
 };

@@ -75,10 +75,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\Flowchart.cpp" />
+    <ClCompile Include="..\src\FlowchartNode.cpp" />
     <ClCompile Include="..\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Flowchart.h" />
+    <ClInclude Include="..\src\FlowchartNode.h" />
+    <ClInclude Include="..\src\FlowchartNodeUnitTest.h" />
+    <ClInclude Include="..\src\FlowchartUnitTest.h" />
+    <ClInclude Include="..\src\NodeFactory.h" />
+    <ClInclude Include="..\src\UnitTest.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
